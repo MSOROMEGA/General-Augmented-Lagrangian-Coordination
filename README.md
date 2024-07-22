@@ -9,7 +9,7 @@ Augmented Lagrangian Coordination(ALC) 是一种决策节点之间的协调方�
 ## 安装说明
 1. 本项目运行在python环境上，目前只支持310和38版本的python(请在Releases下载)，如果需要其他python版本的项目，请联系开发者：hhn0113@outlook.com  
 2. 本项目运行需要安装第三方库：  
-numpy, gurobipy  
+numpy==1.24.3, gurobipy  
 3. 其中需要gurobi的许可，许可可在gurobi官网申请：https://www.gurobi.com/academia/academic-program-and-licenses/  
 ## 特点和优势
 1. 操作简单，只需要输入邻接矩阵和每个决策节点的决策模型即可实现，不需要实现协调原理
