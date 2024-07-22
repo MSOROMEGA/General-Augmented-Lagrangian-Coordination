@@ -32,6 +32,7 @@ numpy, gurobipy
 1. 目前本项目只支持Gurobi求解器下的决策节点的决策和求解，未来将开发启发式算法下的节点决策  
 2. 目前只支持310和38版本的python(请在Releases下载)，如果需要其他python版本的项目，请联系开发者：hhn0113@outlook.com  
 3. 需要改进算法和深入的求解和结果探索的朋友，非常欢迎联系我一同探讨。
+4. gurobi求解器安装器官网：https://www.gurobi.com/downloads/gurobi-software/ ；Gurobi学术许可申请(中文)：http://www.gurobi.cn/ ； python安装官网：https://www.python.org/downloads/windows/ ； 
 ## 未来进一步工作
 1. 接入ea库来支持启发式
 2. 扩展未不确定的ALC模型，例如鲁棒优化、分布鲁棒优化、随机规划
